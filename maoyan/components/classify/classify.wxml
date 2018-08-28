@@ -1,0 +1,44 @@
+<!--components/classify/classify.wxml-->
+<!-- <text>components/classify/classify.wxml</text> -->
+<view style='background-color:white'>
+  <view class='wrap'>
+    <image src='../../pages/img/sing.png'></image>
+    <view>演唱会</view>
+  </view>
+  <view class='wrap'>
+    <image src='../../pages/img/drama.png'></image>
+    <view>话剧歌剧</view>
+  </view>
+  <view class='wrap'>
+    <image src='../../pages/img/leisure.png'></image>
+    <view>休闲展览</view>
+  </view>
+  <view class='wrap'>
+    <image src='../../pages/img/child.png'></image>
+    <view>亲子演出</view>
+  </view>
+  <view class='wrap'>
+    <image src='../../pages/img/sports.png'></image>
+    <view>体育赛事</view>
+  </view>
+  <view class='wrap' style='padding-bottom:40rpx;'>
+    <image src='../../pages/img/music.png'></image>
+    <view>音乐会</view>
+  </view>
+  <view class='wrap'>
+    <image src='../../pages/img/opera.png'></image>
+    <view>戏曲艺术</view>
+  </view>
+  <view class='wrap'>
+    <image src='../../pages/img/dance.png'></image>
+    <view>舞蹈芭蕾</view>
+  </view>
+  <view class='wrap'>
+    <image src='../../pages/img/price.png'></image>
+    <view>优惠专区</view>
+  </view>
+  <view class='wrap'>
+    <image src='../../pages/img/more.png'></image>
+    <view>更多精彩</view>
+  </view>
+</view>

@@ -1,0 +1,14 @@
+/* components/classify/classify.wxss */
+.wrap{
+  width:20%;
+  display: inline-block;
+  text-align: center;
+  padding-top: 40rpx;
+}
+.wrap image{
+  width: 80rpx;
+  height:80rpx;
+}
+.wrap view{
+  font-size:28rpx;
+}

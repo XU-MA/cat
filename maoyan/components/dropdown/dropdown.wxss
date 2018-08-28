@@ -1,0 +1,127 @@
+/* components/dropdown/dropdown.wxss */
+page{
+  margin: 0;
+  padding: 0;
+}
+.view{
+  overflow:hidden;
+  width: 100%;
+  padding: 30rpx;
+}
+.view>image{
+  float: left;
+  width: 200rpx;
+  height: 300rpx;
+  border-radius: 20rpx;
+}
+.left_view{
+  float: left;
+  width: 450rpx;
+  padding-left: 20rpx;
+  position: relative;
+}
+.left_view image{
+  width: 25rpx;
+  height: 25rpx;
+}
+.name{
+  font-size:35rpx;
+  font-weight:700;
+  width: 450rpx;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  -webkit-line-clamp:2;
+}
+.time text{
+  font-size: 25rpx;
+  color: #888888;
+  padding-left: 10rpx;
+}
+.place{
+  overflow: hidden;
+  padding-top: 15rpx;
+  color: gray;
+}
+.place>image{
+  float: left;
+  padding-top: 10rpx;
+}
+.place view{
+  padding-left: 10rpx;
+  float: left;
+  font-size: 25rpx;
+  width: 400rpx;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  -webkit-line-clamp:1;
+}
+.place view text:nth-of-type(1){
+  padding-right: 10rpx;
+}
+.money{
+  color: red;
+  position:absolute;
+  top:240rpx;
+}
+.money text:nth-of-type(1){
+  font-size:35rpx;
+  font-weight: 700;
+}
+.fixed_wrap{
+  z-index: 10;
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 210rpx;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+.screen{
+  font-size: 28rpx;
+  padding: 25rpx 0;
+  border-bottom: 3rpx solid #eeeeee;
+}
+.screen text{
+  display: inline-block;
+  width: 25%;
+  text-align: center;
+}
+.screen>text:nth-of-type(1){
+  color: #ff6633;
+}
+.screen>view{
+  display:inline-block;
+  width: 25%;
+  text-align: center;
+  position:relative;
+  z-index:10;
+}
+.screen view text:nth-of-type(1){
+  width: 60%;
+}
+.select_img{
+  width:20rpx;
+  height:20rpx;
+  transition:transform 0.3s;
+}
+.select_img_rotate{
+  transform: rotate(180deg);
+}
+.all_time{
+  font-size: 28rpx;
+  padding: 20rpx 50rpx;
+  border-bottom: 3rpx solid #eeeeee;
+}
+.all_time:nth-of-type(1){
+  border-top: 3rpx solid #eeeeee;
+}
+.money text:nth-of-type(3){
+  font-size: 25rpx;
+  background-color:#FFE4E1;
+  border: 1px solid #FFC1C1;
+  margin-left: 10rpx;
+}

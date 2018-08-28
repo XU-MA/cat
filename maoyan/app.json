@@ -1,0 +1,44 @@
+{
+  "pages": [
+    "pages/show/show",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/location/location"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "演出",
+    "backgroundColor": "gray",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": true,
+    "onReachBottomDistance": 100
+  },
+  "tabBar": {
+    "color": "gray",
+    "selectedColor": "red",
+    "backgroundColor": "white",
+    "borderStyle": "white",
+    "position": "bottom",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "电影",
+        "iconPath": "pages/img/film.png",
+        "selectedIconPath": "pages/img/selectfilm.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "影院",
+        "iconPath": "pages/img/cinema.png",
+        "selectedIconPath": "pages/img/selectcinema.png"
+      },
+      {
+        "pagePath": "pages/show/show",
+        "text": "演出",
+        "iconPath": "pages/img/ticket.png",
+        "selectedIconPath": "pages/img/selectticket.png"
+      }
+    ]
+  }
+}

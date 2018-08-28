@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "local": "../../components/local/local"
+  }
+}
